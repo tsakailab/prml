@@ -4,4 +4,4 @@ __pycache__
 *.egg-info/
 *.egg
 .DS_Store
-Iconr
+Icon*
