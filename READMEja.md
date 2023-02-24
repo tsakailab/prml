@@ -1,11 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: "PR/ML Exercises at tsakailab.github.io"
-permalink: /
----
-
 # パターン認識と機械学習 演習
 パターン認識と機械学習演習（長崎大学情報データ科学部）の教材
 
