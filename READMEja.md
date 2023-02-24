@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "tsakailab at github.io"
+description: "PR/ML Exercises at tsakailab.github.io"
 permalink: /
 ---
 
