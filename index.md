@@ -32,3 +32,5 @@
 （線形回帰を実装して計算量を比較する / 多層パーセプトロンを画像の修復に応用する）
 15. [ロバストな顔画像認識](https://colab.research.google.com/github/tsakailab/prml/blob/master/ipynb/ex_SRC.ipynb){:target="_blank"}
 （スパース表現に基づく識別について学ぶ）
+
+[「パターン処理工学特論」先取り履修のススメ](https://tsakailab.github.io/alpp/READMEja.html)
