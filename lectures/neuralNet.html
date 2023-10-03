@@ -568,5 +568,33 @@
       }
       init();
       </script>
+      
+      <p>A Javascript implementation of a neural net for handwritten digit recognition.
+      The network has 784 input units (28 x 28 grayscale image, normalized to values ranging from [-1; 1]).
+      These are fully connected to 200 hidden units, each having a bias parameter, giving
+      (784 + 1) * 200 = 157.000 weights; the activations are fed through a logistic non-linearity.
+      The hidden layer is fully connected to the output layer with 10 units, giving (200 + 1) * 10 = 2010 weights.
+      The final output is computed with a 10-way softmax non-linearity, assigning class (0 - 9) probabilities to the input image.</p>
+      <p>The network was trained on the <a href="http://yann.lecun.com/exdb/mnist/">MNIST dataset</a> in MATLAB
+      using stochastic gradient descent and an L2 term for weight regularization to counteract overfitting.
+      The recognition error on the test data set is 1.92% (9808/10000 digits classified correctly).</p>
+      <p>The classification shown above uses some preprocessing of the drawn digit to make it more similar to the MNIST data:
+      After drawing a digit in the above area (280x280 pixels), the drawing is centered on its center of mass, then rescaled
+      to make its bounding box fit into a 200x200 pixels region
+      (see the above link for instructions on how the original MNIST data was preprocessed).
+      The image is then binned into a 28 x 28 representation and fed into the neural net.<br>
+      Optionally (check the "Scale Stroke Width" checkbox), the digit is first redrawn with a scaled strokewidth
+      to counteract the linewidth-changing effect of the subsequent rescaling. This can help with very small digits;
+      the effect can be observed by checking the "Display Preprocessing" box.</p>
+	<p>It is interesting how fast Javascript execution is - the net takes only 3ms on my laptop to classify an image, for ~160.000 multiplications+additions, without any explicit vectorization (SIMD). Actually, preprocessing takes up most of the time.</p>
+      Please note there are regional differences in handwritten digits; in particular, the shapes of 1, 7 and 9
+      as I learnt at school differs from the teaching in the US (and therefore from the training data set),
+      and the network thus gives best results if your handwriting resembles the US training data style (see example picture).
+      
+      Sam Roweis created tiled images of the complete training data on <a href="http://cs.nyu.edu/~roweis/data.html">his homepage</a>.<br>
+
+<hr>
+<p>20231003: This page is a salvaged version of myselph.de/neuralNet.html written by Hubert Eichner, 2014. Code licensed under the MIT license.</p>
+
 </body>
 </html>
