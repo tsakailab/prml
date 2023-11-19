@@ -34,5 +34,5 @@
 （スパース表現に基づく識別について学ぶ）
 
 
-[微分可能プログラミングで始める機械学習](https://tsakailab.github.io/DiffProg/){:target="_blank"}  
-[「パターン処理工学特論」先取り履修のススメ](https://tsakailab.github.io/alpp/READMEja.html)
+- [微分可能プログラミングで始める機械学習](https://tsakailab.github.io/DiffProg/){:target="_blank"}
+- [「パターン処理工学特論」先取り履修のススメ](https://tsakailab.github.io/alpp/READMEja.html)
