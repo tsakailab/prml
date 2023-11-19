@@ -33,4 +33,6 @@
 15. [ロバストな顔画像認識](https://colab.research.google.com/github/tsakailab/prml/blob/master/ipynb/ex_SRC.ipynb){:target="_blank"}
 （スパース表現に基づく識別について学ぶ）
 
+
+[微分可能プログラミングで始める機械学習](https://colab.research.google.com/github/tsakailab/DiffProg/blob/main/MLPrimerDiffProg.ipynb){:target="_blank"}  
 [「パターン処理工学特論」先取り履修のススメ](https://tsakailab.github.io/alpp/READMEja.html)
