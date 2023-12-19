@@ -35,4 +35,5 @@
 
 
 - [微分可能プログラミングで始める機械学習](https://tsakailab.github.io/DiffProg/){:target="_blank"}
-- [「パターン処理工学特論」先取り履修のススメ](https://tsakailab.github.io/alpp/READMEja.html)
+- [「パターン処理工学特論」先取り履修のススメ](https://tsakailab.github.io/alpp/READMEja.html){:target="_blank"}
+- [高次元データ科学とスパースモデリング（酒井研基礎勉強会資料から）](https://github.com/tsakailab/HDsci-SpM){:target="_blank"}
